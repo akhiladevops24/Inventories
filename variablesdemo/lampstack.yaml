@@ -3,7 +3,7 @@
   hosts: webserver
   become: yes
   tasks:
-    - name: install apache and httpd
+    - name: install apache
       package:
         name: "{{ package_name }}"
-        state: present
+        state: present 
