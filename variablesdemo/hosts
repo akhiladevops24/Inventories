@@ -1,0 +1,13 @@
+[centos]
+172.31.0.127
+
+[ubuntu]
+172.31.12.240
+localhost
+
+[webserver]
+172.31.12.240 package_name=ubuntu
+172.31.0.127  package_name=centos
+
+[appserver]
+172.31.0.127
