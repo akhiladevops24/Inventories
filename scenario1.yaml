@@ -15,9 +15,8 @@
       package: 
         name: nano
         state: present        
----
 - name: install apache on centos
-  hosts: all
+  hosts: centos
   become: yes
   tasks:
    - name: install apache
