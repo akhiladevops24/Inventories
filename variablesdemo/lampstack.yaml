@@ -11,4 +11,4 @@
       package:
         name: "{{ item }}"
         state: present
-      loop: "{{ php-packages }}"    
+      loop: "{{ php_packages }}"    
