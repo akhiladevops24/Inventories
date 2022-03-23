@@ -6,8 +6,8 @@
 localhost
 
 [webserver]
-172.31.12.240 package_name=ubuntu
-172.31.0.127  package_name=centos
+172.31.12.240  package_name=apache
+172.31.0.127   package_name=httpd
 
 [appserver]
 172.31.0.127
